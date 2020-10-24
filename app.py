@@ -3,14 +3,14 @@ from flask import Flask, render_template, request, redirect
 
 
 config = {
-    'apiKey': 'AIzaSyBXva8f3SMu42TWhcpqls5B1C218iPv-yU',
-    'authDomain': 'test-cb399.firebaseapp.com',
-    'databaseURL': 'https://test-cb399.firebaseio.com/messages',
-    'projectId': 'test-cb399',
-    'storageBucket': 'test-cb399.appspot.com',
-    'messagingSenderId': '938425930701',
-    'appId': '1:938425930701:web:ed34381b90c751c92bea84',
-    'measurementId': 'G-NJJ16VLT6F'
+    'apiKey': '',
+    'authDomain': '',
+    'databaseURL': '',
+    'projectId': '',
+    'storageBucket': '',
+    'messagingSenderId': '',
+    'appId': '',
+    'measurementId': ''
 }
 
 firebase = pyrebase.initialize_app(config)
